@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neopa Header Section</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#FAFAFA]">
+    <div class="main font-display antialiased flex flex-col items-center justify-center">
+
+        <header
+            class="flex items-center justify-center w-full pt-6 md:pt-10 lg:pt-12 px-6 fixed overflow-visible left-0 right-0 top-0 z-10">
+            <nav
+                class="flex items-center justify-between pl-6 pr-3 w-full h-15 gap-10 text-white bg-black max-w-[700px] rounded-full">
+                <div class="cursor-pointer flex items-center">
+                    <p class="text-base font-medium cursor-pointer tracking-wide leading-[1.6]">
+                        Neopa <span class="text-[10px] md:text-xs absolute bottom-8">®</span>
+                    </p>
+                </div>
+                <div class="md:flex items-center hidden">
+                    <ul class="flex items-center gap-2 text-sm">
+                        <li class="nav-animate tracking-tight"> Home</li>
+                        <li class="nav-animate tracking-tight">Service</li>
+                        <li class="nav-animate tracking-tight">Portfolio</li>
+                        <li class="nav-animate tracking-tight">Blog</li>
+                        <li class="nav-animate tracking-tight">Contact</li>
+                    </ul>
+                </div>
+                <div
+                    class="md:flex hidden items-center-safe justify-center bg-white px-5 py-2 rounded-full transition duration-300 ease-in hover:text-[#595959] text-black cursor-pointer">
+                    <button class="text-base cursor-pointer text-nowrap tracking-wide">
+                        Get In Touch
+                    </button>
+                </div>
+                <!-- menu icon -->
+                <div class="flex items-center justify-center lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-8">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+                </div>
+            </nav>
+        </header>
+
+        <!-- header body section -->
+        <section
+            class="flex items-center justify-center max-w-[1655px] px-4 pt-5 w-full h-full rounded-[35px] overflow-hidden relative">
+            <div
+                class="flex w-full h-[650px] md:h-[650px] lg:h-[850px] bg-cover bg-center bg-[url(src/images/bg-image.avif)] rounded-[35px] relative">
+
+                <div
+                    class="flex flex-col items-start justify-center px-5 md:px-15 absolute top-40 md:top-40 lg:top-45 gap-3 lg:max-w-3xl">
+                    <span class="relative flex size-3">
+                        <span
+                            class="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-75"></span>
+                        <span class="relative inline-flex size-3 rounded-full bg-white"></span>
+                    </span>
+                    <div>
+                        <div>
+                            <p class="text-white">Creative Agency</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="text-[32px] md:text-[42px] lg:text-6xl text-white leading-[1.3em] tracking-wides">
+                            Professional
+                            <br class="block md:hidden">
+                            Creative
+                            <br class="block md:hidden">
+                            Photography
+                    </div>
+                </div>
+
+                <!-- 2nd -->
+                <div
+                    class="flex flex-col items-end justify-end px-5 md:px-15 absolute right-0 bottom-30 md:bottom-40 lg:bottom-50 gap-5 md:gap-10 lg:gap-20 max-w-2xl">
+                    <div>
+                        <p class="text-white text-right text-lg">
+                            Contemporary architecture, prime
+                            <br class="block md:hidden">
+                            locations, and upscale home
+                            <br class="block md:hidden">
+                            design to
+                            inspire your next
+                            journey.
+                        </p>
+                    </div>
+                    <div class="flex items-end justify-center gap-4 flex-col">
+                        <h5 class="text-white text-lg tracking-wide">Trusted by 25,000+ clients</h5>
+                        <div class="flex items-end justify-end gap-4">
+                            <div class="flex items-center h-6 w-6">
+                                <img src="src/images/instagram.png" alt="icon image">
+                            </div>
+                            <div class="flex items-center h-6 w-6">
+                                <img src="src/images/twitter.png" alt="icon image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd -->
+                <div class="flex items-end px-5 md:px-15 w-full absolute bottom-25 md:bottom-40 max-w-2xl">
+                    <div
+                        class="flex border-5 border-white rounded-2xl overflow-hidden h-16 w-16 md:h-22 md:w-22 z-10 -rotate-15 mb-1.5">
+                        <img src="src/images/person1.avif" alt="" class="w-full h-full object-center object-cover">
+                    </div>
+                    <div
+                        class="flex border-5 border-white rounded-2xl overflow-hidden h-16 w-16 md:h-22 md:w-22 -ml-12 rotate-15">
+                        <img src="src/images/person2.avif" alt="" class="w-full h-full object-center object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- body -->
+        <section
+            class="max-w-[1660px] px-8 md:px-30 pt-5 w-full h-full mt-10 lg:mt-30 flex items-center justify-center">
+            <div class="flex flex-col items-center justify-center w-full max-w-5xl gap-3">
+                <div class="max-w-2xl flex items-center justify-center gap-3 bg-[#FFFFFF] px-3 py-2 rounded-[18px]">
+                    <div class="flex items-center h-6 w-6"><img src="src/images/Star.png" alt=""></div>
+                    <div class="flex items-center h-6 w-6"><img src="src/images/Star.png" alt=""></div>
+                    <div class="flex items-center h-6 w-6"><img src="src/images/Star.png" alt=""></div>
+                    <div class="flex items-center h-6 w-6"><img src="src/images/Star.png" alt=""></div>
+                </div>
+                <div class="flex items-center flex-col justify-center gap-3">
+                    <div>
+                        <p
+                            class="text-[28px] md:text-3xl lg:text-5xl font-medium leading-[1.4em] text-center tracking-wide text-[rgb(31,32,33)] font-[inter]">
+                            Every image tells a story, capturing moments with a seamless blend of art and emotion.
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center gap-1.5">
+                        <p class="text-lg font-medium font-[inter] tracking-wide text-[rgb(31,32,33)]">Mr. Cipher Blinks
+                        </p>
+                        <p class="text-sm text-[rgb(112,112,112)] tracking-wide font-[inter]">Fullstack Dev</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
